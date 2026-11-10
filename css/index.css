@@ -1,0 +1,122 @@
+ /*
+|--------------------------------------------------------------------------
+| Daesuite Theme
+|--------------------------------------------------------------------------
+|
+| This file provides Daesuite-specific values for the Daesuite Design
+| System semantic tokens.
+|
+| The design system owns:
+|   - semantic token definitions
+|   - Tailwind token mappings
+|   - shared utilities
+|   - shared component behavior
+|
+| This theme owns:
+|   - visual values
+|   - typography choices
+|   - theme-specific utilities/components
+|
+|--------------------------------------------------------------------------
+*/
+
+
+
+:root[data-theme="theme-daesuite"] {
+
+    /* ==========================================================================
+       Theme Identity
+       ========================================================================== */
+
+    --ds-theme-name: 'daesuite';
+
+
+    /* ==========================================================================
+       Brand Colors
+       ========================================================================== */
+
+    
+    --ds-primary: oklch(0.543 0.099 221.1);
+
+    --ds-primary-foreground: oklch(1 0 0);
+
+    --ds-secondary: oklch(0.28 0.07 254);           
+    --ds-secondary-foreground: oklch(1 0 0);
+
+    --ds-accent: oklch(0.75 0.15 65);
+    --ds-accent-foreground: oklch(0.28 0.07 254);
+
+
+    /* ==========================================================================
+       Application Surfaces
+       ========================================================================== */
+
+    --ds-background: oklch(0.98 0.007 235);
+    --ds-foreground: oklch(0.28 0.07 254);
+    --ds-foreground-inverse: oklch(0.98 0.007 235);
+
+    --ds-surface: oklch(1 0 0);
+    --ds-surface-subtle: oklch(0.975 0.01 235);
+    --ds-surface-muted: oklch(0.95 0.015 238);
+    --ds-surface-elevated: oklch(1 0 0);
+
+
+    /* ==========================================================================
+       Typography
+       ========================================================================== */
+
+    --ds-font-content: "Nunito Sans";
+    --ds-font-brand: "Charmonman";
+    --ds-font-heading: "Yrsa";
+
+
+    /* ==========================================================================
+       Theme-specific Assets
+       ========================================================================== */
+
+    /*
+     * The actual value can be supplied by the Blade/application layer.
+     *
+     * Example:
+     *
+     * style="--bg-flower: url(...)"
+     */
+}
+
+
+/* ==========================================================================
+   Theme-specific Utility
+   ========================================================================== */
+
+.bg-floral-bottom-left {
+    background-image: var(--bg-flower);
+    background-repeat: no-repeat;
+    background-position: left 16px bottom 16px;
+    background-size: 60% auto;
+}
+
+
+@media (min-width: 640px) {
+
+    .bg-floral-bottom-left {
+        background-size: 30% auto;
+    }
+}
+
+
+@media (min-width: 768px) {
+
+    .bg-floral-bottom-left {
+        background-position: left 24px bottom 24px;
+        background-size: 20% auto;
+    }
+}
+
+
+@media (min-width: 1024px) {
+
+    .bg-floral-bottom-left {
+        background-size: 15% auto;
+        background-position: left 16px bottom 4px;
+    }
+}
