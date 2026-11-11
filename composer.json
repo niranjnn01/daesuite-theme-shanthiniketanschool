@@ -1,6 +1,6 @@
 {
-    "name": "daesuite/theme-daesuite",
-    "description": "Default theme for Daesuite",
+    "name": "daesuite/theme-shanthiniketanschool",
+    "description": "Theme for Shanthiniketan School",
     "type": "library",
     "license": "proprietary",
     "require": {
