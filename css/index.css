@@ -22,7 +22,7 @@
 
 
 
-:root[data-theme="theme-daesuite"] {
+:root[data-theme="theme-shanthiniketanschool"] {
 
     /* ==========================================================================
        Theme Identity
@@ -65,9 +65,9 @@
        Typography
        ========================================================================== */
 
-    --ds-font-content: "Nunito Sans";
-    --ds-font-brand: "Charmonman";
-    --ds-font-heading: "Yrsa";
+    --ds-font-content: "Uncut-Sans";
+    --ds-font-brand: "Uncut-Sans";
+    --ds-font-heading: "Erode";
 
 
     /* ==========================================================================

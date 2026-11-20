@@ -19,6 +19,34 @@
             "provider": "google",
             "family": "Charmonman",
             "weights": [ 400, 700]
+        },
+        {
+            "provider": "local",
+            "family": "Uncut-Sans",
+            "weights": [
+                {
+                    "weight": 400,
+                    "file": "fonts/Uncut-Sans/uncut-sans-latin-400-normal.woff2"
+                },
+                {
+                    "weight": 700,
+                    "file": "fonts/Uncut-Sans/uncut-sans-latin-700-normal.woff2"
+                }
+            ]
+        },
+        {
+            "provider": "local",
+            "family": "Erode",
+            "weights": [
+                {
+                    "weight": 400,
+                    "file": "fonts/Erode/Erode-Regular.woff2"
+                },
+                {
+                    "weight": 700,
+                    "file": "fonts/Erode/Erode-Bold.woff2"
+                }
+            ]
         }
     ]
 }
