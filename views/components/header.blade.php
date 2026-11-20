@@ -6,7 +6,7 @@
 
                 <div class="absolute w-full top-0 left-0">
 
-                    <div class="container mx-auto max-w-6xl px-4">
+                    <div class="container mx-auto max-w-7xl px-4">
                         <div class="flex justify-between items-center">
                         
                             <!-- branding -->

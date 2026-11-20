@@ -50,36 +50,29 @@
                 <ul class="bg-background shadow-lg rounded-md py-2 border border-border">
 
                     <li>
-                        <a href="/about"
+                        <a href="/history-and-philosophy"
                            @click="open = false"
                            class="block px-4 py-2 hover:bg-secondary hover:text-primary transition-colors">
-                            Overview
+                            Our History and Philosophy
                         </a>
                     </li>
 
                     <li>
-                        <a href="/about/vision-mission"
+                        <a href="/our_team"
                            @click="open = false"
                            class="block px-4 py-2 hover:bg-secondary hover:text-primary transition-colors">
-                            Vision & Mission
+                            Our Team
                         </a>
                     </li>
 
                     <li>
-                        <a href="/about/management"
+                        <a href="/founder"
                            @click="open = false"
                            class="block px-4 py-2 hover:bg-secondary hover:text-primary transition-colors">
-                            Management
+                            Meet our Founder
                         </a>
                     </li>
 
-                    <li>
-                        <a href="/about/facilities"
-                           @click="open = false"
-                           class="block px-4 py-2 hover:bg-secondary hover:text-primary transition-colors">
-                            Facilities
-                        </a>
-                    </li>
 
                 </ul>
             </div>
