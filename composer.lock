@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "423bd7c62ca86bf1fface6b4900cd4e3",
+    "content-hash": "d3d27ac5a1a775eb981c24e4dfa017db",
     "packages": [
         {
             "name": "daesuite/design-system",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/niranjnn01/daesuite-design-system.git",
-                "reference": "b519283782106daa8d4c5c6337ae60d7ebbbb584"
+                "reference": "7ca60da0911a23b84f6dd1fe7aa7fe57d2a689c6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/niranjnn01/daesuite-design-system/zipball/b519283782106daa8d4c5c6337ae60d7ebbbb584",
-                "reference": "b519283782106daa8d4c5c6337ae60d7ebbbb584",
+                "url": "https://api.github.com/repos/niranjnn01/daesuite-design-system/zipball/7ca60da0911a23b84f6dd1fe7aa7fe57d2a689c6",
+                "reference": "7ca60da0911a23b84f6dd1fe7aa7fe57d2a689c6",
                 "shasum": ""
             },
             "type": "library",
@@ -33,9 +33,9 @@
             "description": "Daesuite shared design system and Tailwind CSS foundation",
             "support": {
                 "issues": "https://github.com/niranjnn01/daesuite-design-system/issues",
-                "source": "https://github.com/niranjnn01/daesuite-design-system/tree/1.0.0"
+                "source": "https://github.com/niranjnn01/daesuite-design-system/tree/1.0.1"
             },
-            "time": "2026-09-06T04:11:44+00:00"
+            "time": "2026-11-24T01:16:14+00:00"
         }
     ],
     "packages-dev": [],
