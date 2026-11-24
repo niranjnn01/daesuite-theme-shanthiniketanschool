@@ -1,12 +1,12 @@
 
     <!-- Header -->
-    <header class="header pb-5 mb-4 bg-background h-24" x-data="{ mobileMenuOpen: false, contactModalOpen: false , admissionModalOpen: false}">
+    <header class="header pb-5 mb-4 bg-background h-24 relative" x-data="{ mobileMenuOpen: false, contactModalOpen: false , admissionModalOpen: false}">
 
-            <div class="relative">
+            <div class="relative z-50">
 
-                <div class="absolute w-full top-0 left-0 z-50">
+                <div class="absolute w-full top-0 left-0">
 
-                    <div class="container mx-auto max-w-6xl px-4">
+                    <div class="container mx-auto max-w-7xl px-4">
                         <div class="flex justify-between items-center">
                         
                             <!-- branding -->

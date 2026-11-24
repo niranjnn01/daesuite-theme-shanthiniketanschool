@@ -4,5 +4,5 @@
     <a href="/" class="flex items-center">
         <x-image src="{{tenant_asset('images/logo.png')}}" alt="Logo" class="h-30 w-auto" />
     </a>
-    <span class="text-xl">{{ $organization->name }}</span>
+    
 </div>

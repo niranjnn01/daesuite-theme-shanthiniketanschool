@@ -1,50 +1,84 @@
- /*
+
+/* themes/shanthiniketanschool/css/index.css */
+
+/*
 |--------------------------------------------------------------------------
-| Daesuite Theme
+| Theme Shanthiniketanschool
 |--------------------------------------------------------------------------
 |
-| This file provides Daesuite-specific values for the Daesuite Design
-| System semantic tokens.
+| This file defines the visual identity of the Shanthiniketan theme.
 |
-| The design system owns:
-|   - semantic token definitions
+| The Daesuite Design System owns:
+|   - Semantic token definitions
 |   - Tailwind token mappings
-|   - shared utilities
-|   - shared component behavior
+|   - Shared utilities
+|   - Shared component behaviour
 |
 | This theme owns:
-|   - visual values
-|   - typography choices
-|   - theme-specific utilities/components
+|   - Brand colours
+|   - Application surfaces
+|   - Content and control colours
+|   - Typography choices and scale
+|   - Border radius
+|   - Theme-specific assets and utilities
 |
 |--------------------------------------------------------------------------
 */
 
 
-
-:root[data-theme="theme-daesuite"] {
+:root[data-theme="theme-shanthiniketanschool"] {
 
     /* ==========================================================================
        Theme Identity
        ========================================================================== */
 
-    --ds-theme-name: 'daesuite';
+    --ds-theme-name: 'theme-shanthiniketanschool';
 
 
     /* ==========================================================================
        Brand Colors
        ========================================================================== */
 
-    
     --ds-primary: oklch(0.543 0.099 221.1);
-
     --ds-primary-foreground: oklch(1 0 0);
 
-    --ds-secondary: oklch(0.28 0.07 254);           
+    --ds-secondary: oklch(0.28 0.07 254);
     --ds-secondary-foreground: oklch(1 0 0);
 
     --ds-accent: oklch(0.75 0.15 65);
     --ds-accent-foreground: oklch(0.28 0.07 254);
+
+
+    /* ==========================================================================
+       Feedback Colors
+       ========================================================================== */
+
+    --ds-success: oklch(0.632 0.186 147.37);
+    --ds-success-foreground: oklch(1 0 0);
+
+    --ds-warning: oklch(0.756 0.160 74.11);
+    --ds-warning-foreground: oklch(0.145 0 0);
+
+    --ds-danger: oklch(0.583 0.239 28.48);
+    --ds-danger-foreground: oklch(1 0 0);
+
+    --ds-info: oklch(0.614 0.116 224.64);
+    --ds-info-foreground: oklch(1 0 0);
+
+
+    /* ==========================================================================
+       Generic UI Colors
+       ========================================================================== */
+
+    --ds-muted: oklch(0.97 0 0);
+    --ds-muted-foreground: oklch(0.45 0 0);
+
+    --ds-border: oklch(0.922 0 0);
+
+    --ds-ring: var(--ds-primary);
+
+    --ds-disabled: var(--ds-muted);
+    --ds-disabled-foreground: var(--ds-muted-foreground);
 
 
     /* ==========================================================================
@@ -56,67 +90,102 @@
     --ds-foreground-inverse: oklch(0.98 0.007 235);
 
     --ds-surface: oklch(1 0 0);
+    --ds-surface-foreground: var(--ds-foreground);
+
     --ds-surface-subtle: oklch(0.975 0.01 235);
     --ds-surface-muted: oklch(0.95 0.015 238);
     --ds-surface-elevated: oklch(1 0 0);
+
+    --ds-card: var(--ds-surface);
+    --ds-card-foreground: var(--ds-surface-foreground);
+
+
+    /* ==========================================================================
+       Form Surfaces
+       ========================================================================== */
+
+    --ds-form-surface: oklch(1 0 0 / 0.82);
+    --ds-form-surface-foreground: var(--ds-foreground);
+    --ds-form-surface-border: oklch(1 0 0 / 0.55);
+
+
+    /* ==========================================================================
+       Form Controls
+       ========================================================================== */
+
+    --ds-control: oklch(1 0 0);
+    --ds-control-foreground: var(--ds-foreground);
+    --ds-control-border: var(--ds-border);
+    --ds-control-placeholder: var(--ds-muted-foreground);
+    --ds-control-focus: var(--ds-primary);
+
+    --ds-control-disabled: var(--ds-disabled);
+    --ds-control-disabled-foreground: var(--ds-disabled-foreground);
+
+    --ds-input: var(--ds-control);
+
+
+    /* ==========================================================================
+       Content Colors
+       ========================================================================== */
+
+    --ds-heading: var(--ds-foreground);
+    --ds-body: var(--ds-foreground);
+    --ds-caption: var(--ds-muted-foreground);
+
+    --ds-link: var(--ds-primary);
+    --ds-link-hover: color-mix(
+        in oklch,
+        var(--ds-primary) 60%,
+        black
+    );
 
 
     /* ==========================================================================
        Typography
        ========================================================================== */
 
-    --ds-font-content: "Nunito Sans";
-    --ds-font-brand: "Charmonman";
-    --ds-font-heading: "Yrsa";
+    /* Font Families */
+
+    --ds-font-content: "Uncut-Sans", sans-serif;
+    --ds-font-brand: "Uncut-Sans", sans-serif;
+    --ds-font-heading: "Erode", serif;
+
+
+    /* Font Size Scale */
+
+    --ds-text-xs: 0.8rem;
+    --ds-text-sm: 0.9rem;
+    --ds-text-base: 1.05rem;
+    --ds-text-lg: 1.2rem;
+    --ds-text-xl: 1.4rem;
+    --ds-text-2xl: 1.7rem;
+    --ds-text-3xl: 2.1rem;
+    --ds-text-4xl: 2.6rem;
 
 
     /* ==========================================================================
-       Theme-specific Assets
+       Border Radius
        ========================================================================== */
 
-    /*
-     * The actual value can be supplied by the Blade/application layer.
-     *
-     * Example:
-     *
-     * style="--bg-flower: url(...)"
-     */
+    --ds-radius: 0.525rem;
+
 }
 
 
 /* ==========================================================================
-   Theme-specific Utility
+   Theme-specific Assets
    ========================================================================== */
 
-.bg-floral-bottom-left {
-    background-image: var(--bg-flower);
-    background-repeat: no-repeat;
-    background-position: left 16px bottom 16px;
-    background-size: 60% auto;
-}
+/*
+ * The actual value can be supplied by the Blade/application layer.
+ *
+ * Example:
+ *
+ * style="--bg-flower: url(...)"
+ */
 
 
-@media (min-width: 640px) {
-
-    .bg-floral-bottom-left {
-        background-size: 30% auto;
-    }
-}
-
-
-@media (min-width: 768px) {
-
-    .bg-floral-bottom-left {
-        background-position: left 24px bottom 24px;
-        background-size: 20% auto;
-    }
-}
-
-
-@media (min-width: 1024px) {
-
-    .bg-floral-bottom-left {
-        background-size: 15% auto;
-        background-position: left 16px bottom 4px;
-    }
-}
+/* ==========================================================================
+   Theme-specific
+   ========================================================================== */
