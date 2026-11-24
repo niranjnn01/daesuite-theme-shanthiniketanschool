@@ -1,7 +1,7 @@
 
 @if ($attributes->get('page_heading'))
     <div {{ $attributes->merge(['class' => 'py-8']) }}>
-        <h1 class="text-3xl font-brand font-bold">
+        <h1 class="text-3xl font-brand font-bold text-center">
             {{ $attributes->get('page_heading') }}
         </h1>
     </div>
