@@ -44,7 +44,7 @@
 --ds-primary: #3F7D58;
 --ds-primary-foreground: #FFFFFF;
 
---ds-secondary: #4335A7;
+--ds-secondary: #7EA259;
 --ds-secondary-foreground: #FFFFFF;
 
 --ds-accent: #FFB717;
@@ -166,12 +166,13 @@
    Footer
    ========================================================================== */
 
+   
 --ds-footer-background: #326747;
---ds-footer-foreground: #FFFFFF;
---ds-footer-heading: #FFFFFF;
---ds-footer-link: #FFFFFF;
+--ds-footer-foreground: #F5EBDD;
+--ds-footer-heading: #F5EBDD;
+--ds-footer-link: #F5EBDD;
 --ds-footer-link-hover: #FFB717;
---ds-footer-muted: #DCE9DF;
+--ds-footer-muted: #E2D8C8;
 
 }
 

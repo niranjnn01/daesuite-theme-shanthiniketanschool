@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "daesuite/design-system",
-            "version": "1.0.3",
+            "version": "1.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/niranjnn01/daesuite-design-system.git",
-                "reference": "c6612909e47214d8dd7ef710b91f9d4287e12aaf"
+                "reference": "841892ef6e37e4cc0a88c7af8cc8410dca98715f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/niranjnn01/daesuite-design-system/zipball/c6612909e47214d8dd7ef710b91f9d4287e12aaf",
-                "reference": "c6612909e47214d8dd7ef710b91f9d4287e12aaf",
+                "url": "https://api.github.com/repos/niranjnn01/daesuite-design-system/zipball/841892ef6e37e4cc0a88c7af8cc8410dca98715f",
+                "reference": "841892ef6e37e4cc0a88c7af8cc8410dca98715f",
                 "shasum": ""
             },
             "type": "library",
@@ -33,9 +33,9 @@
             "description": "Daesuite shared design system and Tailwind CSS foundation",
             "support": {
                 "issues": "https://github.com/niranjnn01/daesuite-design-system/issues",
-                "source": "https://github.com/niranjnn01/daesuite-design-system/tree/1.0.3"
+                "source": "https://github.com/niranjnn01/daesuite-design-system/tree/1.0.4"
             },
-            "time": "2026-11-25T00:15:31+00:00"
+            "time": "2026-11-25T00:40:24+00:00"
         }
     ],
     "packages-dev": [],

@@ -7,12 +7,12 @@
                     <!-- Organization Info -->
                     <div class="w-full lg:w-auto">
                         <span class="text-footer-heading text-2xl font-bold">{{ $organization->name }}</span>
-                        <address class="text-black not-italic mt-5 mb-5 text-small">
+                        <address class="not-italic mt-5 mb-5 text-small">
                             {{ $organization->primaryAddress->address_line_1 }}, <br />
                             {{ $organization->primaryAddress->address_line_2 }}, <br />
                             postal code : {{ $organization->primaryAddress->postal_code }}
                         </address>
-                        <div class="text-black text-small font-semibold">
+                        <div class="text-small font-semibold">
                             Ph : {{ $organization->primaryPhoneNumber?->number }}
                         </div>
                     </div>
@@ -20,7 +20,7 @@
                     <!-- Links Section -->
                     <div class="w-full lg:w-1/3 flex flex-col sm:flex-row justify-evenly gap-5">
                         <div>
-                            <h4 class="text-2xl font-bold mb-5 text-foreground">About</h4>
+                            <h4 class="text-2xl font-bold mb-5 text-footer-heading">About</h4>
                             <div class="flex flex-col gap-2 text-black">
                                 @foreach($footerLinks as $link)
                                 <a href="{{ $link['url'] }}" class="text-footer-link hover:text-footer-link-hover">{{ $link['text'] }}</a>
@@ -30,7 +30,7 @@
                         </div>
 
                         <div>
-                            <h4 class="text-2xl font-bold mb-5 text-foreground">Legal</h4>
+                            <h4 class="text-2xl font-bold mb-5 text-footer-heading">Legal</h4>
                             <div class="flex flex-col gap-2 text-black">
                                 @foreach($footerLinksLegal as $link)
                                 <a href="{{ $link['url'] }}" class="text-footer-link hover:text-footer-link-hover">{{ $link['text'] }}</a>
@@ -41,7 +41,7 @@
 
                     <!-- Social Media -->
                     <div class="w-full lg:w-1/3">
-                        <h4 class="text-2xl font-bold mb-5 text-foreground">Explore Us Even Further</h4>
+                        <h4 class="text-2xl font-bold mb-5 text-footer-heading">Explore Us Even Further</h4>
                         <p class="mb-5">
                             To know more about us, and to keep posted on the latest information, follow us on your favourite social media.
                         </p>
