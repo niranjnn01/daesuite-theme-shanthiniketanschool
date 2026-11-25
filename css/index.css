@@ -35,110 +35,101 @@
     --ds-theme-name: 'theme-shanthiniketanschool';
 
 
-    /* ==========================================================================
-       Brand Colors
-       ========================================================================== */
+    
 
-    --ds-primary: oklch(0.543 0.099 221.1);
-    --ds-primary-foreground: oklch(1 0 0);
+/* ==========================================================================
+   Brand Colors
+   ========================================================================== */
 
-    --ds-secondary: oklch(0.28 0.07 254);
-    --ds-secondary-foreground: oklch(1 0 0);
+--ds-primary: #3F7D58;
+--ds-primary-foreground: #FFFFFF;
 
-    --ds-accent: oklch(0.75 0.15 65);
-    --ds-accent-foreground: oklch(0.28 0.07 254);
+--ds-secondary: #4335A7;
+--ds-secondary-foreground: #FFFFFF;
 
-
-    /* ==========================================================================
-       Feedback Colors
-       ========================================================================== */
-
-    --ds-success: oklch(0.632 0.186 147.37);
-    --ds-success-foreground: oklch(1 0 0);
-
-    --ds-warning: oklch(0.756 0.160 74.11);
-    --ds-warning-foreground: oklch(0.145 0 0);
-
-    --ds-danger: oklch(0.583 0.239 28.48);
-    --ds-danger-foreground: oklch(1 0 0);
-
-    --ds-info: oklch(0.614 0.116 224.64);
-    --ds-info-foreground: oklch(1 0 0);
+--ds-accent: #FFB717;
+--ds-accent-foreground: #4335A7;
 
 
-    /* ==========================================================================
-       Generic UI Colors
-       ========================================================================== */
+/* ==========================================================================
+   Feedback Colors
+   ========================================================================== */
 
-    --ds-muted: oklch(0.97 0 0);
-    --ds-muted-foreground: oklch(0.45 0 0);
+--ds-success: #3F7D58;
+--ds-success-foreground: #FFFFFF;
 
-    --ds-border: oklch(0.922 0 0);
+--ds-warning: #FFB717;
+--ds-warning-foreground: #4335A7;
 
-    --ds-ring: var(--ds-primary);
+--ds-danger: #E83F25;
+--ds-danger-foreground: #FFFFFF;
 
-    --ds-disabled: var(--ds-muted);
-    --ds-disabled-foreground: var(--ds-muted-foreground);
-
-
-    /* ==========================================================================
-       Application Surfaces
-       ========================================================================== */
-
-    --ds-background: oklch(0.98 0.007 235);
-    --ds-foreground: oklch(0.28 0.07 254);
-    --ds-foreground-inverse: oklch(0.98 0.007 235);
-
-    --ds-surface: oklch(1 0 0);
-    --ds-surface-foreground: var(--ds-foreground);
-
-    --ds-surface-subtle: oklch(0.975 0.01 235);
-    --ds-surface-muted: oklch(0.95 0.015 238);
-    --ds-surface-elevated: oklch(1 0 0);
-
-    --ds-card: var(--ds-surface);
-    --ds-card-foreground: var(--ds-surface-foreground);
+--ds-info: #4F6BE4;
+--ds-info-foreground: #FFFFFF;
 
 
-    /* ==========================================================================
-       Form Surfaces
-       ========================================================================== */
+/* ==========================================================================
+   Application Surfaces
+   ========================================================================== */
 
-    --ds-form-surface: oklch(1 0 0 / 0.82);
-    --ds-form-surface-foreground: var(--ds-foreground);
-    --ds-form-surface-border: oklch(1 0 0 / 0.55);
+--ds-background: #F5F8F5;
+--ds-foreground: #263B30;
+--ds-foreground-inverse: #FFFFFF;
 
+--ds-surface: #FFFFFF;
+--ds-surface-foreground: var(--ds-foreground);
 
-    /* ==========================================================================
-       Form Controls
-       ========================================================================== */
+--ds-surface-subtle: #F0F5F0;
+--ds-surface-muted: #E8F0E9;
+--ds-surface-elevated: #FFFFFF;
 
-    --ds-control: oklch(1 0 0);
-    --ds-control-foreground: var(--ds-foreground);
-    --ds-control-border: var(--ds-border);
-    --ds-control-placeholder: var(--ds-muted-foreground);
-    --ds-control-focus: var(--ds-primary);
-
-    --ds-control-disabled: var(--ds-disabled);
-    --ds-control-disabled-foreground: var(--ds-disabled-foreground);
-
-    --ds-input: var(--ds-control);
+--ds-card: var(--ds-surface);
+--ds-card-foreground: var(--ds-foreground);
 
 
-    /* ==========================================================================
-       Content Colors
-       ========================================================================== */
+/* ==========================================================================
+   Generic UI Colors
+   ========================================================================== */
 
-    --ds-heading: var(--ds-foreground);
-    --ds-body: var(--ds-foreground);
-    --ds-caption: var(--ds-muted-foreground);
+--ds-muted: #EDF2ED;
+--ds-muted-foreground: #647368;
 
-    --ds-link: var(--ds-primary);
-    --ds-link-hover: color-mix(
-        in oklch,
-        var(--ds-primary) 60%,
-        black
-    );
+--ds-border: #DCE6DD;
+
+--ds-ring: var(--ds-primary);
+
+/* ==========================================================================
+   Form Surfaces
+   ========================================================================== */
+
+--ds-form-surface: #FFFFFF;
+--ds-form-surface-foreground: var(--ds-foreground);
+--ds-form-surface-border: #DCE6DD;
+
+
+/* ==========================================================================
+   Form Controls
+   ========================================================================== */
+
+--ds-control: #FFFFFF;
+--ds-control-foreground: var(--ds-foreground);
+--ds-control-border: #CBD9CE;
+--ds-control-placeholder: #78877B;
+--ds-control-focus: var(--ds-primary);
+
+
+/* ==========================================================================
+   Content Colors
+   ========================================================================== */
+
+--ds-heading: #263B30;
+--ds-body: #405247;
+--ds-caption: #647368;
+
+--ds-link: var(--ds-primary);
+--ds-link-hover: #326747;
+
+
 
 
     /* ==========================================================================
@@ -169,6 +160,18 @@
        ========================================================================== */
 
     --ds-radius: 0.525rem;
+
+
+    /* ==========================================================================
+   Footer
+   ========================================================================== */
+
+--ds-footer-background: #326747;
+--ds-footer-foreground: #FFFFFF;
+--ds-footer-heading: #FFFFFF;
+--ds-footer-link: #FFFFFF;
+--ds-footer-link-hover: #FFB717;
+--ds-footer-muted: #DCE9DF;
 
 }
 
